@@ -1,0 +1,37 @@
+.divCadastros {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px black;
+    background-color: aliceblue;
+    height: 1000px;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    height: 25px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+button {
+    height: 35px;
+    width: 250px;
+    background-color: lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: lightgreen
+}
